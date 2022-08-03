@@ -12,7 +12,7 @@ import os
 # - change 'operatingsystem' to WINDOWS or MAC or LINUX (mobile not supported)
 
 # =================================================
-# CHANGE THESE VARIABLES BEFOER RUNNING THE SCRIPT
+# CHANGE THESE VARIABLES BEFORE RUNNING THE SCRIPT
 # =================================================
 
 # The full path to your logseq graph for example /Users/adxsoft/mylogseqgraph/
