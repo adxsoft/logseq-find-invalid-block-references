@@ -4,16 +4,16 @@ A Python 3 script I developed for myself to find invalid block references in a l
 
 This script scans all markdown files in the pages and journals folders of a logseq graph.
 
-Each block reference is checked to confirm it actually exists in any of the pages in the pages or journals folder.
+Each block reference is checked to confirm it actually exists in any of the markdown files in the pages or journals folder.
 
 If an invalid block reference is discovered it is reported together with the markdown file it exists in.
 
-There is no attempt to check within the internal logseq database. Once you have fixed any invalid bock references then a logseq graph re-index will ensure logseq's internal databases are update
+There is no attempt to check within the internal logseq database. Once you have fixed any invalid bock references then a logseq graph re-index will ensure logseq's internal databases are updated
 
 # To run this script
  - you need python3 installed
  - Click the green Code button and choose Download Zip
- - unzip the downloaded file```
+ - unzip the downloaded file
  - in a text editor change the script 'check_invalid_block_references.py' as follows
    - change 'logseqpath' to the FULL path to your graph
    - change 'operatingsystem' to WINDOWS or MAC or LINUX (mobile not supported)
