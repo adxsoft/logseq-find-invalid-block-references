@@ -13,7 +13,7 @@ There is no attempt to check within the internal logseq database. Once you have 
 # To run this script
  - you need python3 installed
  - Click the green Code button and choose Download Zip
- - unzip the downloaded file
+ - unzip the downloaded file```
  - in a text editor change the script 'check_invalid_block_references.py' as follows
    - change 'logseqpath' to the FULL path to your graph
    - change 'operatingsystem' to WINDOWS or MAC or LINUX (mobile not supported)
@@ -21,7 +21,7 @@ There is no attempt to check within the internal logseq database. Once you have 
  - open a terminal and type
    - python3 check_invalid_block_references.py
  # Sample output
- 
+ ```
  Logseq Graph: Golf
 
   - ** invalid block references
@@ -31,7 +31,6 @@ There is no attempt to check within the internal logseq database. Once you have 
 
     => 627a1398-7451-45ed-ba21-83245aa9dd50 
        on page Golf/journals/2022_05_04.md
-   
-   
+```
 
 
