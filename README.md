@@ -10,3 +10,10 @@ If an invalid block reference is discovered it is reported together with the mar
 
 There is no attempt to check within the internal logseq database. Once you have fixed any invalid bock references then a logseq graph re-index will ensure logseq's internal databases are update
 
+# To run this script
+ - you need python3 installed
+ - change the script 'check_invalid_block_references.py' as follows
+   - change 'logseqpath' to the FULL path to your graph
+   - change 'operatingsystem' to WINDOWS or MAC or LINUX (mobile not supported)
+
+
