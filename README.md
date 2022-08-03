@@ -20,6 +20,17 @@ There is no attempt to check within the internal logseq database. Once you have 
    - save the script
  - open a terminal and type
    - python3 check_invalid_block_references.py
+ # Sample output
+ 
+ Logseq Graph: Golf
+
+  - ** invalid block references
+
+    => 623accb6-d0f3-4d83-934b-5b58b50eb516 
+       on page Golf/pages/Methods%2FJack Kuykendall.md
+
+    => 627a1398-7451-45ed-ba21-83245aa9dd50 
+       on page Golf/journals/2022_05_04.md
    
    
 
