@@ -12,8 +12,15 @@ There is no attempt to check within the internal logseq database. Once you have 
 
 # To run this script
  - you need python3 installed
- - change the script 'check_invalid_block_references.py' as follows
+ - Click the green Code button and choose Download Zip
+ - unzip the downloaded file
+ - in a text editor change the script 'check_invalid_block_references.py' as follows
    - change 'logseqpath' to the FULL path to your graph
    - change 'operatingsystem' to WINDOWS or MAC or LINUX (mobile not supported)
+   - save the script
+ - open a terminal and type
+   - python3 check_invalid_block_references.py
+   
+   
 
 
